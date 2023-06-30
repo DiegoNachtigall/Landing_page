@@ -1,389 +1,90 @@
-/* ********* */
-/* Cabeçalho */
-/* ********* */
-header {
-    z-index: 1;
-    position: fixed;
-    display: block;
-    width: 100%;
-    height: 15%;
-    left: 0px;
-    top: 0px;
-    background: #C89667;
+div.botao {
+    text-align: center;
+    background-color: #e4cdb8;
+    border: 1px;
+    border-style: solid;
+    border-radius: 1vw;
+    border-color: black;
+    width: 10vw;
+    height: 4vw;
 }
 
 body {
     background-color: #FCE1C7;
-
 }
 
-img.Logo {
-    width: 10%;
-    position: absolute;
-    left: 4%;
-    top: 7%;
+button.btn {
+    font-size: 100%;
 }
 
-a {
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 39px;
+header{
+    z-index: 1;
+    position: sticky;
+    top: 0;
+    background-color: #C89667;
+    font-size: 2vw;
+    width: 99vw;
 }
 
-a:link,
-a:visited {
-    color: black;
-    text-decoration: none;
+div.bg-image {
+    background-image: url(Imagens/background2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
+    height: 75vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-a.Funcionalidades {
-    position: absolute;
-    left: 20%;
-    height: 71%;
-    padding-top: 2%;
+div.texto1 {
+    position: relative;
+    width: 60vw;
 }
 
-a.Planos {
-    position: absolute;
-    left: 57%;
-    height: 71%;
-    padding-top: 2%;
-}
-
-a.apresentação {
-    position: absolute;
-    left: 40%;
-    height: 71%;
-    padding-top: 2%;
-}
-
-a.Contato {
-    position: absolute;
-    left: 67%;
-    height: 71%;
-    padding-top: 2%;
-}
-
-a.Funcionalidades:hover,
-a.Planos:hover,
-a.apresentação:hover,
-a.Contato:hover {
-    transition: all 0.3s ease-in-out;
-    background-color: #aa815a;
-}
-
-button.Login {
-    position: absolute;
-    left: 87%;
-    top: 30%;
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 32px;
-    width: 10%;
-    height: 50%;
-    border-radius: 15%;
-    background-color: #FCE1C7;
-    line-height: 10%;
-}
-
-button.Login:hover {
-    transition: all 0.3s ease-in-out;
-    background-color: #e6c09d;
-    cursor: pointer;
-}
-
-/* ************** */
-/* Primeira seção */
-/* ************** */
-section.primeira {
-    position: absolute;
-    width: 100%;
-    height: 78%;
-    left: 0px;
-    top: 15%;
-    background-image: url(Imagens/Background.PNG);
-    background-size: 100%;
+section.segunda {
+    background-color: #ebaf78;
+    font-size: 200%;
 }
 
 h6 {
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 39px;
+    font-size: 7lvh;
 }
 
-h6.titulo1 {
-    position: absolute;
-    left: 10%;
-    top: -5%;
-
-}
-
-a.texto1 {
-    position: absolute;
-    width: 742px;
-    height: 197px;
-    left: 10%;
-    top: 30%;
-}
-
-/* ************* */
-/* Segunda seção */
-/* ************* */
-
-section.segunda {
-    position: absolute;
-    width: 100%;
-    height: 70%;
-    left: 0px;
-    top: 93%;
-    background-color: #ebaf78;
-}
-
-h6.titulo2 {
-    position: absolute;
-    left: 36%;
-    top: -10%
-}
-
-img.conhecimento {
-    position: absolute;
-    width: 155px;
-    height: 177px;
-    left: 5%;
-    top: 25%;
-}
-
-img.relatorio {
-    position: absolute;
-    width: 170px;
-    height: 170px;
-    left: 24%;
-    top: 25%;
-}
-
-img.dashboard {
-    position: absolute;
-    width: 180px;
-    height: 157.4px;
-    left: 43%;
-    top: 25%;
-}
-
-img.controle {
-    position: absolute;
-    width: 172px;
-    height: 168px;
-    left: 62%;
-    top: 25%;
-}
-
-img.email {
-    position: absolute;
-    width: 180px;
-    height: 126px;
-    left: 82%;
-    top: 25%;
-}
-
-a.conhecimento {
-    position: absolute;
-    width: 190px;
-    left: 4%;
-    top: 65%;
-    text-align: center;
-}
-
-a.relatorio {
-    position: absolute;
-    width: 170px;
-    height: 180px;
-    left: 24%;
-    top: 65%;
-    text-align: center;
-}
-
-a.dashboard {
-    position: absolute;
-    width: 180px;
-    height: 157.4px;
-    left: 43%;
-    top: 65%;
-    text-align: center;
-}
-
-a.controle {
-    position: absolute;
-    width: 172px;
-    height: 168px;
-    left: 63%;
-    top: 65%;
-    text-align: center;
-}
-
-a.email {
-    position: absolute;
-    width: 180px;
-    height: 126px;
-    left: 82%;
-    top: 65%;
-    text-align: center;
-}
-
-/* ************** */
-/* Terceira seção */
-/* ************** */
-
-section.terceira {
-    position: absolute;
-    width: 100%;
-    height: 65%;
-    left: 0px;
-    top: 170%;
-}
-
-h6.titulo3 {
-    position: absolute;
-    left: 36%;
-    top: -15%
-}
-
-iframe.video {
-    position: absolute;
-    width: 537px;
-    height: 358px;
-    left: 35%;
-    top: 20%;
-    border-color: #fce1c700;
-    border-radius: 4%;
-    background-color: #E3C5A9;
+iframe {
+    width: 50vw;
+    height: 30vw;
+    border-radius: 1vw;
 }
 
 hr {
-    position: absolute;
-    top: 99%;
-    width: 99.8%;
-    height: 5%;
-    background-color: #daa370;
+    width: 99vw;
+    height: 3vh;
+    background-color: #c46003;
     border-color: rgba(245, 245, 220, 0);
 }
 
-/* ************ */
-/* Quarta seção */
-/* ************ */
-
-section.quarta {
-    position: absolute;
-    width: 100%;
-    height: 1000px;
-    left: 0px;
-    top: 240%;
-}
-
-h6.titulo4 {
-    position: absolute;
-    left: 46%;
-    top: -7%;
-}
-
-table {
-    width: 27%;
+section table {
+    width: 98%;
     border: 0%;
     background-color: #E3C5A9;
     border-radius: 4%;
 }
 
-th {
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 48px;
-    line-height: 39px;
-    border-radius: 4%;
-    padding: 4%;
+section td {
+    background-color: #c89667a9;
 }
 
-td {
-    background-color: #C89667;
-}
-
-li {
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-button.assinar {
-    font-size: 25px;
-    border-radius: 4%;
-    border-color: #fce1c700;
-    background-color: #E3C5A9;
-}
-
-button.assinar:hover {
-    transition: all 0.3s ease-in-out;
-    background-color: rgb(187, 155, 126);
-    cursor: pointer;
-}
-
-table.tabela1 {
-    position: absolute;
-    top: 15%;
-    left: 3%;
-}
-
-table.tabela2 {
-    position: absolute;
-    top: 15%;
-    left: 36%;
-}
-
-table.tabela3 {
-    position: absolute;
-    top: 15%;
-    left: 70%;
-}
-
-/* ******* */
-/* Roda-pé */
-/* ******* */
-
-footer {
-    position: absolute;
-    width: 100%;
-    left: 0px;
-    top: 350%;
-}
-
-table.footer {
-    width: 0%;
-    border: 0%;
-    background-color: #ffffff00;
-    font-size: 18px;
-}
-
-footer td {
-    width: 0%;
-    border: 0%;
-    background-color: #ffffff00;
-    font-size: 18px;
+footer table {
     text-decoration:underline;
     cursor: pointer;
 }
 
-img.footer {
-    width: 7%;
-    position: absolute;
-    left: 90%;
-    top: 2%;
-}
-
 ul.contatos {
-    position: absolute;
     list-style-type: none;
     text-align: right;
     text-decoration:underline;
     cursor: pointer;
-    left: 77%;
-    bottom: 0%;
+}
+
+footer img {
+    width: 8vw;
 }
